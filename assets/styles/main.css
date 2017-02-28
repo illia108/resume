@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Roboto', serif;
+}
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+
+  font-family: 'Roboto', serif;
+  color: #545E6C;;
+  line-height: 2rem;
+  background-color: #ccc;
+}
+h1, h2, h3 {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #2d7788;
+  text-transform: uppercase;
+}
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.3rem;
+}
+a:hover {
+  cursor: pointer;
+}
+p {
+  line-height: 2rem;
+}
+.container {
+  display: flex;
+  background-color: #fff;
+}
+main {
+  width: 75%;
+  padding: 50px 50px 50px 100px;
+}
+main > section{
+  margin-bottom: 60px;
+}
+main a {
+  color: #2d7788;
+}
+main ul {
+  list-style: circle;
+  padding-left: 30px;
+}
+.intro {
+  margin-bottom: 20px;
+}
+.item {
+  margin-bottom: 30px;
+}
+.company, .time {
+  color: #2981f4;
+}
+.level-bar {
+    height: 12px;
+    background: #f5f5f5;
+}
+.level-bar-inner {
+  width: 0;
+  height: 12px;
+  background: #7bc2d3;
+}
+aside {
+  width: 25%;
+  background: #42A8C0;
+  color: #fff;
+}
+aside * {
+  color: #fff;
+}
+aside > div {
+  padding: 20px;
+}
+ul.list {
+  list-style: disc;
+  padding-left: 30px;
+}
+aside h1 {
+  font-size: 1.5rem;
+}
+aside h2 {
+  font-size: 1.3rem;
+}
+aside h3 {
+  font-size: 1.1rem;
+}
+.profile {
+  padding: 60px 10px;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2);
+}
+.profile h1 {
+  color: #fff;
+}
+.profile h3 {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: capitalize;
+}
+.profile img {
+  border-radius: 50%;
+}
+aside .contacts img {
+  width: 25px;
+  margin-right: 25px;
+  vertical-align: middle;
+}
+aside li {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 767px) {
+  main, aside {
+    width: 100%;
+  }
+}
