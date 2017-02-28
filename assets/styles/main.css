@@ -67,6 +67,9 @@ main ul {
   height: 12px;
   background: #7bc2d3;
 }
+h3.level-title {
+  font-size: 1rem;
+}
 aside {
   width: 25%;
   background: #42A8C0;
