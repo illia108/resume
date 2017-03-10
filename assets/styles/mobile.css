@@ -1,0 +1,16 @@
+@media (max-width: 600px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  aside {
+    order: -1;
+  }
+  aside > div:not(:first-child) {
+    width: 50%;
+    margin: 0 auto;
+  }
+  main {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
