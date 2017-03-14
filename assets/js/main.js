@@ -1,6 +1,12 @@
 $(function(){
   $(window).scroll(function() {
-    if($(window).scrollTop() + $(window).height() == $(document).height()) {
+    var scrollHeight = $(document).height();
+	var scrollPosition = $(window).height() + $(window).scrollTop();
+//     console.log('scrollHeight: ' + scrollHeight);
+//     console.log('scrollPosition: ' + scrollPosition);
+     console.log('(scrollHeight - scrollPosition) / scrollHeight: ' + (scrollHeight - scrollPosition) / scrollHeight);
+	if ((scrollHeight - scrollPosition) / scrollHeight < 0) {
+     
       showLevels();
     }
 });
